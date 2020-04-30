@@ -57,17 +57,17 @@ public void assegnaDestinazione(String unaTarga, String unaCitta){
 	 	}
 	else if (cercaTarga(unaTarga)<0) aggiungiMezzo(unaTarga,unaCitta);
 }
-public void eliminaDestinazione(String unaCittà)
+public void eliminaDestinazione(String unaCittï¿½)
 {
- if(cercaCitta(unaCittà)==-1)
+ if(cercaCitta(unaCittï¿½)==-1)
 return;
  for(int i=0;i<mezzi.size();i++)
  {
  if(mezzi.get(i).getArrivo()!=null)
- if(mezzi.get(i).getArrivo().getCitta().equals(unaCittà))
+ if(mezzi.get(i).getArrivo().getCitta().equals(unaCittï¿½))
  mezzi.get(i).setArrivo(null);
  }
- destinazioni[cercaCitta(unaCittà)] = destinazioni[o-1];
+ destinazioni[cercaCitta(unaCittï¿½)] = destinazioni[o-1];
  nDestinazioni--;
 }
 public int stat()
@@ -87,6 +87,7 @@ public void stampa(){
 	
 	
 	vedi modifica
+	ciao a tutti
 
 	
 }
